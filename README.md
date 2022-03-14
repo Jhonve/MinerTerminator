@@ -1,7 +1,7 @@
 # MinerTerminator
 Defend server from miner attack
 
-### Base
+## Base
 
 **Using [fail2ban](https://www.fail2ban.org/)**
 
@@ -54,22 +54,22 @@ sudo fail2ban-client set jail_name banip ip_address
 
 
 
-### If you are attacked
+## If you are attacked
 
 - Find the PID of the miner process.
 
 - Find the program.
 
   ```
-  sudo cd /proc/miner_pid
+  sudo cd /proc/
   
   ```
 
-- 
+- Waiting for update
 
 
 
-### Solution 1 -- Using 'ssh-copy-id'
+## Solution 1 -- Using 'ssh-copy-id'
 
 Suppose your server is attacked by hackers repeatedly with the correct username and password. You can disable ssh password login and use 'ssh-copy-id' instead.
 
@@ -77,5 +77,5 @@ Waiting for update...
 
 
 
-### Solution 2 -- Waiting for Update
+## Solution 2 -- Waiting for Update
 
